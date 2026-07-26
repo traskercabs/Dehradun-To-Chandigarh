@@ -660,7 +660,7 @@
     </button>
   </div>
 
-  <!-- <script>
+  <script>
     const APP_LINKS = {
       whatsappNumber: "918218602998",
       driverOnboardingUrl: "https://forms.gle/oJGsSMvQZQ8EfwLWA"
@@ -1143,7 +1143,7 @@
     .custom-route-btn:hover::after {
       transform: translateX(5px);
     }
-  </style> -->
+  </style>
 
   <!-- Schema Markup (FAQPage) -->
   <script type="application/ld+json">
@@ -1261,118 +1261,7 @@
           <div class="status-dot">Highway Live</div>
         </div>
 
-        <div class="grid-2">
-          <div class="field">
-            <label for="pickup">Pickup Location</label>
-            <select id="pickup" class="select" onchange="calculate()">
-              <option value="Dehradun">Dehradun (ISBT / Rajpur Road)</option>
-              <option value="Chandigarh">Chandigarh (Sector 17 / Airport)</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="dropoff">Drop-off Location</label>
-            <select id="dropoff" class="select" onchange="calculate()">
-              <option value="Chandigarh">Chandigarh (Sector 17 / Airport)</option>
-              <option value="Dehradun">Dehradun (ISBT / Rajpur Road)</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="field">
-          <label for="vehicle">Select Vehicle Class</label>
-          <select id="vehicle" class="select" onchange="calculate()">
-            <option value="sedan">Sedan (Swift Dzire / Aura) • 4 Seats</option>
-            <option value="suv">Family SUV (Ertiga / Carens) • 6 Seats</option>
-            <option value="prime">Prime Executive (Innova Crysta) • 6 Seats</option>
-          </select>
-        </div>
-
-        <div class="price-box">
-          <div class="price-title">Estimated Delivered Fare</div>
-          <div id="priceDisplay" class="price-val">₹3,499 - ₹3,999</div>
-          <div class="price-sub">Includes state tolls, taxes & fuel</div>
-        </div>
-
-        <button class="btn-action" onclick="handleButtonClick('widget_book')">
-          ⚡ Secure This Route via WhatsApp
-        </button>
-      </div>
-    </header>
-
-    <!-- NEW DASHBOARD WIDGETS -->
-    <section class="dashboard-grid">
-      
-      <!-- Widget 1: LIVE API Weather Widget -->
-      <div class="widget mini-widget">
-        <div class="mini-widget-header">
-          <div class="header-text-group"><span>⛅</span> Corridor Weather</div>
-          <div id="weather-status" class="status-dot">Live Feed</div>
-        </div>
-
-        <div class="weather-container">
-          <div class="weather-row">
-            <div>
-              <div class="weather-city">🌲 Dehradun Valley</div>
-              <div id="ddn-cond" class="weather-cond">Connecting Live...</div>
-            </div>
-            <div id="ddn-temp" class="weather-temp">--°C</div>
-          </div>
-
-          <div class="weather-row">
-            <div>
-              <div class="weather-city">🏙️ Chandigarh City</div>
-              <div id="chd-cond" class="weather-cond">Connecting Live...</div>
-            </div>
-            <div id="chd-temp" class="weather-temp">--°C</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Widget 2: Interactive Route Pitstop Guide -->
-      <div class="widget mini-widget">
-        <div class="mini-widget-header">
-          <div class="header-text-group"><span>☕</span> Route Pitstop Guide</div>
-          <span style="font-size: 0.75rem; color: var(--gold); font-weight: 800; text-transform: uppercase;">Optional Stops</span>
-        </div>
-
-        <div class="pitstop-tabs">
-          <button class="pitstop-tab active" onclick="showPitstop('paonta', this)">Paonta Sahib</button>
-          <button class="pitstop-tab" onclick="showPitstop('kalesar', this)">Kalesar Forest</button>
-          <button class="pitstop-tab" onclick="showPitstop('panchkula', this)">Panchkula</button>
-        </div>
-
-        <div id="pitstop-display" class="pitstop-content">
-          <div class="ps-title"><span>🕌 Paonta Sahib Gurudwara</span> <span class="ps-time">~1.5 Hrs In</span></div>
-          <p class="ps-desc">Historic spiritual sanctuary situated on the scenic banks of the River Yamuna. Enjoy tranquil riverside views or langar; 30-minute waiting included free!</p>
-        </div>
-      </div>
-
-    </section>
-
-    <!-- Dedicated Image Placement Section -->
-    <section class="image-showcase-section">
-      <div class="image-card">
-        <div class="image-frame">
-          <span class="image-badge">Shivalik Corridor</span>
-          <img 
-            src="rd.avif" 
-            alt="Scenic view of the Dehradun to Chandigarh highway journey via Shivalik hills" 
-            width="800" 
-            height="450" 
-            loading="lazy" 
-            decoding="async">
-        </div>
-        <div class="image-details">
-          <h3>The Scenic <span>Paonta Sahib</span> Drive</h3>
-          <p>Cruise seamlessly from the Shivalik foothills through historic Paonta Sahib and Panchkula directly into Chandigarh's well-planned avenues. Our fleet is optimized for smooth mountain descents and highway comfort.</p>
-          <div class="image-tags">
-            <span class="image-tag">🌲 Shivalik Valley Exit</span>
-            <span class="image-tag">🛣️ Paonta Sahib Corridor</span>
-            <span class="image-tag">👨‍✈️ Experienced Highway Driver</span>
-          </div>
-        </div>
-      </div>
-    </section>
+        
 
     <!-- Fleet Selection Structure -->
     <section class="section">
@@ -1637,4 +1526,5 @@
     });
   </script>
 </body>
+>>>>>>> 29022784eb96eae10f54cca3ea957a277273773c
 </html>
