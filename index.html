@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8323XTK2WF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script>
+window.addEventListener('load', function () {
+    setTimeout(function () {
 
-  gtag('config', 'G-8323XTK2WF');
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-8323XTK2WF';
+        document.head.appendChild(script);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+
+        gtag('js', new Date());
+        gtag('config', 'G-8323XTK2WF');
+
+    }, 3000);
+});
 </script>
   <meta name="google-site-verification" content="pDkMOxEYynkccisqt4u0ruj92kylimPHBnyAyryzd24" />
   <!-- Google tag (gtag.js) -->
