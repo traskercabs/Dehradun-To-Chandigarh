@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://traskercabs.github.io/Dehradun-To-Chandigarh/sitemap.xml
